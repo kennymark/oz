@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+*{
+  margin: 0;  
+ padding: 0;
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-osx-font-smoothing: grayscale;
+}
+
+ nav{
+  width: 100%;
+  height: 85vh;
+  z-index: 2;
+  top:0;
+  width:100%;
+  background-image: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&fm=jpg&s=a4598570a3286ea23369fdefe46953ba");
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+nav ul{
+  height:65px;
+  background-color: white;
+  position:fixed;
+  width:100%; 
+}
+
+ul li{
+  float: right;
+  display: inline;
+  padding:20px 2px 0px 5px;
+  font-size: 16px;
+  margin-right:10px;
+}
+
+li a{
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  font-size:20px;
+  font-weight:300;
+  
+}
+
+li a:hover{
+  text-decoration: line-through;
+  
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.span{
+  float: left;
+  font-size:21px;
+  color:white;
+  padding:5px 5px;
+  margin:11px 15px 0;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  background: #000;
+}
+
+#things{
+  padding-top: 50px;
+  text-align: center;
+  
+}
+
+h1{ 
+  color:#1a1a1a;
+  font-weight:300;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#content{
+  padding-top:50px;
+  color:#444444;
+  line-height:27px;
+  font-size:17px;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  letter-spacing: 0.5px;
+  
+}
+.fa{
+  color:#2E2E2E;
+  padding-top: 40px;
+  font-size:60px;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+}
+
+hr{
+  width:10%;
+  margin: 5px auto;
+  background-color:#C6415A;
+  color:#C6415A; 
+}
+.title{
+
+  padding:50px 0px;
+}
+
+.testimonials{
+  height: 600px;
+  background-color: #EDEDED;
+}
+
+.profiles{
+  width:60%;
+  float: right;
+  border-left:1px solid grey;
+  padding:50px 0px;
+
+}
+
+#pic{
+  height:140px;
+  width: 130px;
+  margin:30px;
+  border-radius:50%;
+  background-color: #fff;
+  display: inline-block;
+  float: left;
+  
+}
+
+footer{
+  height: 100px;
+  width: 100%;
+  background-color: #C6415A;
+  text-align: center;
+  clear: both;
+  
+}
+
+footer p{
+  padding-top: 45px;
+  color: white;
+  font-weight: 300;
+  font-family: 'Lato',san-serif;
+  font-size:14px;
+  text-transform: capitalize;
+ 
+}
+::selection{
+  background-color:#EB7155;
+  color: white;
+}
+@media screen and (max-width:560px){
+  #things{
+    display:block;
+  }
+}
