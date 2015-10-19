@@ -17,7 +17,7 @@ body{
   z-index: 2;
   top:0;
   width:100%;
-  background-image: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&fm=jpg&s=a4598570a3286ea23369fdefe46953ba");
+  background-image: url("../img/bg.jpg");
   background-position: center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -115,14 +115,12 @@ hr{
 }
 
 .testimonials{
-  height: 600px;
+  
   background-color: #EDEDED;
 }
 
 .profiles{
-  width:60%;
-  float: right;
-  border-left:1px solid grey;
+  
   padding:50px 0px;
 
 }
@@ -138,16 +136,21 @@ hr{
   
 }
 
-footer{
+.whathesay{
+  float: right;
+}
+
+.footer{
   height: 100px;
   width: 100%;
   background-color: #C6415A;
   text-align: center;
   clear: both;
+  bottom: 0;
   
 }
 
-footer p{
+.footer p{
   padding-top: 45px;
   color: white;
   font-weight: 300;
