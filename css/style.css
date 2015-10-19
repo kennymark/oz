@@ -9,18 +9,20 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
 	-osx-font-smoothing: grayscale;
+  font-weight: 300;
 }
 
  nav{
   width: 100%;
-  height: 85vh;
+  height: 95vh;
   z-index: 2;
   top:0;
   width:100%;
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/back1.jpg");
   background-position: center;
   -webkit-background-size: cover;
   background-size: cover;
+
 }
 
 nav ul{
@@ -44,11 +46,24 @@ li a{
   display: inline-block;
   font-size:20px;
   font-weight:300;
+  transition: all 0.2s ease;
   
 }
 
+.intro{
+  
+  color: white;
+  text-align: center;
+}
+h3{
+  font-weight: 300;
+  font-family: 'Lato',sans-serif;
+  font-size: 72px;
+  padding-top: 20%;
+}
 li a:hover{
   text-decoration: line-through;
+  transition: all 0.2s ease;
   
 }
 
@@ -61,11 +76,11 @@ li a:hover{
   float: left;
   font-size:21px;
   color:white;
-  padding:5px 5px;
-  margin:11px 15px 0;
-  letter-spacing: 1px;
-  text-transform: capitalize;
+  padding:6px 5px;
+  margin:15px 15px 0;
   background: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 #things{
@@ -93,7 +108,7 @@ h1{
   
 }
 .fa{
-  color:#2E2E2E;
+  color:#404040;
   padding-top: 40px;
   font-size:60px;
   text-align: center;
@@ -114,57 +129,115 @@ hr{
   padding:50px 0px;
 }
 
-.testimonials{
-  
+.parody{
   background-color: #EDEDED;
-}
-
-.profiles{
-  
-  padding:50px 0px;
+  margin: auto;
+  padding-top: 50px;
+ position: relative;
 
 }
 
-#pic{
-  height:140px;
-  width: 130px;
-  margin:30px;
+h2{
+  color: #555;
+}
+b{
+  color: grey;
+  font-weight: 300;
+}
+.comments{
+  float: right;
+  padding-top:20px;
+ 
+}
+
+.pic{
+  height:170px;
+  width: 170px;
   border-radius:50%;
-  background-color: #fff;
   display: inline-block;
   float: left;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin:auto;
   
 }
-
-.whathesay{
-  float: right;
+.pic1{
+  margin-right:20px;
+  background-image: url("../img/profiles/timcook.jpg");
 }
 
-.footer{
+
+.pic2{
+  margin-right:20px;
+  background-image: url("../img/profiles/donald.jpg");
+}
+.pic3{
+  margin-right:20px;
+  background-image: url("../img/profiles/travis.jpg");
+}
+.pic4{
+  margin-right:20px;
+  background-image: url("../img/profiles/kanye.jpg");
+}
+.lastfooter{
   height: 100px;
   width: 100%;
-  background-color: #C6415A;
+  background-color: #167884;
   text-align: center;
   clear: both;
   bottom: 0;
   
 }
 
-.footer p{
-  padding-top: 45px;
+.lastfooter p{
+  padding-top: 20px;
   color: white;
   font-weight: 300;
-  font-family: 'Lato',san-serif;
-  font-size:14px;
+  font-size:12px;
   text-transform: capitalize;
+  letter-spacing: 0.4px;
+  font-family: 'Lato', sans-serif ;
  
 }
+
+.lastfooter .links{
+  padding-top: 40px;
+}
+
+.lastfooter a{
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: 'Lato';
+  margin:25px;
+  transition: all 0.2s ease;
+}
+
+.lastfooter a:hover{
+  border-bottom:1px solid white;
+  padding-bottom: 10px;
+}
+
 ::selection{
   background-color:#EB7155;
   color: white;
 }
+
 @media screen and (max-width:560px){
   #things{
     display:block;
+  }
+
+  .box1, .box2{
+    width: 100%;
+    display: block;
+  }
+  .lastfooter .links a{
+    margin:2px;
+  }
+  
+  .parody{
+    
   }
 }

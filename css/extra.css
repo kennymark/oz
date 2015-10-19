@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-osx-font-smoothing: grayscale;
+	font-weight: 300;
+	background: rgba(239, 239, 239, 0.39);
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+    height: 55px;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.29);
+    top: 0;
+    position: fixed;
+}
+.btnback{
+	margin: 10px 20px;
+	border-radius: 2px;
+	border: 1px solid grey;
+	width: 95px;
+	height: 22px;
+	padding: 5px 3px;
+	background: #282828;
+	text-align: center;
+
+}
+.btnback a{
+	color: white;
+	text-decoration: none;
+
+	
+}
+h1{
+	color: #555;
+	font-size: 45px;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: 'Lato',sans-serif;
+}
+
+.content{
+	margin: auto;
+	width: 60%;
+	text-align: left;
+	padding: 120px 0 100px 0px;
+	
+}
+
+p{
+	font-size: 21px;
+	color:#706363;
+	letter-spacing: 0.5px;
+	line-height: 28px;
+
+}
